@@ -1,0 +1,23 @@
+{
+  "name": "between-us-server",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/app.js",
+    "start": "node src/app.js",
+    "create-user": "node src/create-user.js"
+  },
+  "dependencies": {
+    "argon2": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "helmet": "latest",
+    "jsonwebtoken": "latest",
+    "multer": "latest",
+    "mysql2": "latest",
+    "socket.io": "latest",
+    "uuid": "latest"
+  }
+}
